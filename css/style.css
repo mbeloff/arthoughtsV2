@@ -87,9 +87,7 @@ html {
   transform: scale(1.05);
 }
 
-.aboutcontent {
-  width: 100%;
-  margin: 40px auto 0 auto;
+.bio {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 2fr;
@@ -97,7 +95,7 @@ html {
   grid-gap: 20px;
 }
 
-.aboutprop {
+.col-one {
   text-align: right;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
@@ -106,7 +104,7 @@ html {
     margin: 0;
 }
 
-.aboutvalue {
+.col-two {
     text-align: left;
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
