@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.berk {
+  font-family: 'berkshire swash';
+  color: rgb(255, 207, 136)!important;
+  text-shadow: 2px 2px rgba(0,0,0,.514), 2px 2px 2px rgba(0, 0, 0, 0.322);
+}
+
+.sub-berk {
+  text-shadow: 2px 2px rgba(0,0,0,.514), 2px 2px 2px rgba(0, 0, 0, 0.267);
+}
+
+.rgba-black-strong {
+  background-color: rgba(37, 37, 37, 0.562);
+}
+
+.nav-link, .navbar-brand, .dropdown-item, .custom {
+  color: rgb(247, 156, 82) !important;
+}
+
+.custom-gradient {
+  background-image: linear-gradient(40deg,#ff9c6e,#ffac2f)!important;
+}
+
+.triplet {
+  height: 220px;
+  max-width: 800px;
+  margin: auto;
+  background: #2e2e2e;
+  border-radius: 10px;
+}
+
+.triplet-img {
+  background-size: cover;
+  background-position: center;
+  border: 5px solid #2e2e2e;
+  border-radius: 10px;
+}
+
+.cal-img {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+  border: 1px solid white;
+}
+
+.cal-inactive {
+  background-color: rgba(255,255,255,.7)
+}
+
+.cal-inactive > p {
+  color: rgb(116, 116, 116) !important;
+}
+
+/* -------------------------gallery */
+.display {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  grid-gap: .2rem;
+}
+
+.display-item {
+  min-height: 7rem;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.356);
+  overflow: hidden;
+  transition: transform 200ms ease-out;
+}
+
+.display-item:hover {
+  transform: scale(1.03);
+}
+
+.display-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 700ms ease-out;
+}
+
+.display-image:hover {
+  transform: scale(1.05);
+}
+
+.aboutcontent {
+  width: 100%;
+  margin: 40px auto 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+}
+
+.aboutprop {
+  text-align: right;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    font-weight: 600;
+    margin: 0;
+}
+
+.aboutvalue {
+    text-align: left;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    margin: 0;
+    letter-spacing: .05em;
+}
