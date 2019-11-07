@@ -5,38 +5,38 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Material Design Bootstrap</title>
+  <meta name="description" content="Learn to paint like Bob Ross in one day. Book a painting workshop with a Certified Ross Instructor">
+  <title>Bob Ross CRI Art Workshops - Arthoughts</title>
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/624839148d.js" crossorigin="anonymous"></script>
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
   <link href="css/mdb.min.css" rel="stylesheet">
-  <!--fancy box  -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
+
   <!-- Your custom styles (optional) -->
   <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body data-spy="scroll" id="home">
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark elegant-color lighten-4 fixed-top">
-      <a class="navbar-brand font-weight-bold" href="tel:+61424975336">0424 975 336</a>
+      <a class="navbar-brand font-weight-light" href="tel:+61424975336">Call 0424 975 336</a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link waves-effect waves-light" href="#">Home <span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link waves-effect waves-light active" href="#home">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link waves-effect waves-light" href="#cri">Bob Ross CRI</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Workshops</a>
-            <div class="dropdown-menu dropdown-warning dropdown-menu-right elegant-color" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu dropdown-menu-right elegant-color" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item waves-effect waves-light" href="#about">What to Expect</a>
               <a class="dropdown-item waves-effect waves-light" href="#info">Details</a>
               <a class="dropdown-item waves-effect waves-light" href="#calendar">Upcoming</a>
@@ -52,17 +52,19 @@
         <a href="#book" class="btn btn-rounded custom-gradient white-text">BOOK NOW</a>
       </div>
     </nav>
-    <div class="view jarallax" style="height: 50vh; margin-top: 56px; min-height: 700px;">
+    <div class="view jarallax" style="height: 50vh; min-height: 700px;">
       <img class="jarallax-img" src="img/header-new.jpg" alt="">
       <div class="mask rgba-black-strong"></div>
       <!-- <div class="mask rgba-stylish-strong"></div> -->
       <div class="flex-center text-left">
         <div class="container mt-5 py-5">
-          <div class="col-12 wow fadeIn mb-3">
-            <h1 class="display-3 mb-2 wow fadeInDown berk" data-wow-delay="0.3s">Discover the<br> Joy of Painting</h1>
-            <h3 class="col-12 col-lg-6 mb-3 mt-1 wow fadeIn white-text sub-berk" data-wow-delay="0.4s">Painting workshops with Maaret Webb, teaching artist and Certified Bob Ross Instructor</h3>
 
+          <div class="col-12 col-lg-6">
+            <img src="img/discover-jop.svg" alt="" class="img-fluid jop">
           </div>
+          <h3 class="col-12 col-lg-6 mb-3 mt-1 wow fadeIn white-text sub-berk" data-wow-delay="0.4s">Painting workshops with Maaret Webb, teaching artist and Certified Bob Ross Instructor</h3>
+
+
         </div>
       </div>
     </div>
@@ -108,10 +110,12 @@
       <div class="row pb-4">
 
         <!--Grid column-->
-        <div class="col-md-12 text-left">
+        <div class="col-md-10 text-left">
 
           <h2 class="h1 font-weight-light custom mt-5 py-4">What to Expect</h2>
-          <p>The classroom is set up with all that you need for your lesson and you don’t need to bring anything other than your happy self. Only Bob Ross products are used, as they are designed to give you the authentic Bob Ross experience that you signed up for. Your instructor will explain everything you need to know about using the products and about the painting that you will be working on - almighty mountains, a seascape, a forest or waterfall scene, and maybe one of Bob’s iconic cabins. Each step of the painting will be demonstrated to you, as you follow along, leading you from a blank canvas to a finished painting by the end of your lesson, ready to take home and frame.</p>
+          <p align="justify">The classroom is set up with all that you need for your lesson and you don’t need to bring anything other than your happy self. Only Bob Ross products are used, as they are designed to give you the authentic Bob Ross experience that you signed up for. Your instructor will explain everything you need to know about using the products and about the painting that you will be working on - almighty mountains, a seascape, a forest or waterfall scene, and maybe one of Bob’s iconic cabins.
+          </p>
+          <p align="justify">Each step of the painting will be demonstrated to you, as you follow along, leading you from a blank canvas to a finished painting by the end of your lesson, ready to take home and frame.</p>
 
         </div>
         <!--Grid column-->
@@ -127,11 +131,16 @@
       <div class="row pb-4">
 
         <!--Grid column-->
-        <div class="col-md-12 text-left">
+        <div class="col-md-10 text-left ml-auto">
 
-          <h2 class="h1 font-weight-light custom py-4 mt-5">Workshops Details</h2>
-          <p>Workshops take place at our Brisbane studio on the first three Saturdays of every month, covering a different Bob Ross landscapes each week. These workshops run from 10am to 3pm with a lunch break. Great for individuals and small groups up to 12 people. Book online now.</p>
-          <p>We also offer workshops at our Burleigh Heads studio for individuals or groups of up to 6. Please get in touch via <a href="mailto: bookarthoughts@gmail.com">email</a> or by calling <a href="tel:+61424975336">+61 424 975 336</a> to check availability or make a booking.</p>
+          <h2 class="h1 font-weight-light custom py-4 mt-5 text-right">Workshops Details</h2>
+          <p align="justify">Workshops take place at our Brisbane studio on the first three Saturdays of every month, covering a different Bob Ross landscapes each week. These workshops run from 10am to 3pm with a lunch break. Great for individuals and small groups up to 12 people. Book online now.</p>
+          <ul class="list-group mb-3">
+            <li class="list-group-item">Mountains & Snow Scenes</li>
+            <li class="list-group-item">Forests & Bush Scenes</li>
+            <li class="list-group-item">Seascapes & Other Scenes</li>
+          </ul>
+          <p align="justify">We also offer workshops at our Burleigh Heads studio for individuals or groups of up to 6. Please get in touch via <a href="mailto: bookarthoughts@gmail.com">email</a> or by calling <a href="tel:+61424975336">+61 424 975 336</a> to check availability or make a booking.</p>
         </div>
         <!--Grid column-->
 
@@ -169,7 +178,7 @@
             <div class="card card-body h-100 hoverable">
               <i class="fad fa-tree fa-2x mb-4 mt-3 custom" aria-hidden="true"></i>
               <p class="font-weight-bold font-weight-bold dark-grey-text text-uppercase spacing">
-                <strong>Offical Bob Ross Materials</strong>
+                <strong>Use Offical Bob Ross Materials</strong>
               </p>
               <p class="dark-grey-text font-small">All official Bob Ross paints and tools are provided, essential for an authentic experience
               </p>
@@ -207,8 +216,8 @@
 
     <div class="container" id="calendar">
       <div class="row mb-5 pb-4"></div>
-      <h2 class="h1 font-weight-light custom py-4 mt-5 w-100">Upcoming Workshops</h2>
-
+      <h2 class="h1 font-weight-light custom py-4 mt-5 w-100 text-center">Upcoming Workshops</h2>
+      <p class="text-center">Preview paintings from upcoming workshops and then <a href="#book">Book online</a> using the form below</p>
 
 
       <!--Accordion wrapper-->
@@ -221,70 +230,35 @@
           <div class="card-header" role="tab" id="headingOne">
             <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
               <h5 class="mb-0 text-dark">
-                November <i class="fas fa-angle-down rotate-icon"></i>
+                January <i class="fas fa-angle-down rotate-icon"></i>
               </h5>
             </a>
           </div>
 
           <!-- Card body -->
-          <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordionEx">
+          <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordionEx">
             <div class="card-body row no-gutters p-0">
               <div class="view col-md-4">
-                <img src="img/resize/1.jpg" class="cal-img" alt="placeholder">
-                <div class="mask flex-center waves-effect waves-light pattern-3 cal-inactive">
-                  <p class="white-text w-100 text-center font-weight-bold rgba-black-strong p-1">Week 1</p>
-                </div>
-              </div>
-              <div class="view col-md-4">
-                <img src="img/resize/10.jpg" class="cal-img" alt="placeholder">
-                <div class="mask flex-center waves-effect waves-light pattern-3 cal-inactive">
-                  <p class="white-text w-100 text-center font-weight-bold rgba-black-strong p-1">Week 2</p>
-                </div>
-              </div>
-              <div class="view col-md-4">
-                <img src="img/resize/7.jpg" class="cal-img" alt="placeholder">
-                <div class="mask flex-center waves-effect waves-light pattern-3 cal-inactive">
-                  <p class="white-text w-100 text-center font-weight-bold rgba-black-strong p-1">Week 3</p>
-                </div>
-              </div>
-            </div>
-          </div>
+                <img src="img/examples/1.jpg" class="cal-img text-center" alt="Distant Mountains">
 
-        </div>
-        <!-- Accordion card -->
-
-        <!-- Accordion card -->
-        <div class="card">
-
-          <!-- Card header -->
-          <div class="card-header" role="tab" id="headingTwo">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              <h5 class="mb-0 text-dark">
-                December <i class="fas fa-angle-down rotate-icon"></i>
-              </h5>
-            </a>
-          </div>
-
-          <!-- Card body -->
-          <div id="collapseTwo" class="collapse show" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordionEx">
-            <div class="card-body row no-gutters p-0">
-              <div class="view col-md-4">
-                <img src="img/resize/11.jpg" class="cal-img" alt="placeholder">
-                <div class="mask flex-center waves-effect waves-light pattern-3 cal-inactive">
-                  <p class="white-text w-100 text-center font-weight-bold rgba-black-strong p-1">Week 1</p>
-                </div>
-              </div>
-              <div class="view col-md-4">
-                <img src="img/resize/12.jpg" class="cal-img" alt="placeholder">
                 <div class="mask flex-center waves-effect waves-light">
-                  <p class="white-text w-100 text-center font-weight-bold rgba-black-strong p-1">Week 2</p>
+                  <!-- <p class="white-text w-100 text-center font-weight-bold rgba-black-strong p-1">Week 1</p> -->
                 </div>
+                <p class="m-0 text-center">week 1 - Distant Mountains</p>
               </div>
               <div class="view col-md-4">
-                <img src="img/resize/6.jpg" class="cal-img" alt="placeholder">
+                <img src="img/examples/2.jpg" class="cal-img" alt="Waterfall in the Woods">
                 <div class="mask flex-center waves-effect waves-light">
-                  <p class="white-text w-100 text-center font-weight-bold rgba-black-strong p-1">Week 3</p>
+                  <!-- <p class="white-text w-100 text-center font-weight-bold rgba-black-strong p-1">Week 2</p> -->
                 </div>
+                <p class="m-0 text-center">week 2 - Waterfall in the Woods</p>
+              </div>
+              <div class="view col-md-4">
+                <img src="img/examples/3.jpg" class="cal-img" alt="Evergreens at Sunset">
+                <div class="mask flex-center waves-effect waves-light">
+                  <!-- <p class="white-text w-100 text-center font-weight-bold rgba-black-strong p-1">Week 3</p> -->
+                </div>
+                <p class="m-0 text-center">week 3 - Evergreens at Sunset</p>
               </div>
             </div>
           </div>
@@ -299,7 +273,7 @@
           <div class="card-header" role="tab" id="headingThree">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
               <h5 class="mb-0 text-dark">
-                January <i class="fas fa-angle-down rotate-icon"></i>
+                February <i class="fas fa-angle-down rotate-icon"></i>
               </h5>
             </a>
           </div>
@@ -308,22 +282,25 @@
           <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordionEx">
             <div class="card-body row no-gutters p-0">
               <div class="view col-md-4">
-                <img src="img/resize/1.jpg" class="cal-img" alt="placeholder">
+                <img src="img/examples/4.jpg" class="cal-img" alt="Two Seasons">
                 <div class="mask flex-center waves-effect waves-light">
-                  <p class="white-text w-100 text-center font-weight-bold rgba-black-strong p-1">Week 1</p>
+                  <!-- <p class="white-text w-100 text-center font-weight-bold rgba-black-strong p-1">Week 1</p> -->
                 </div>
+                <p class="m-0 text-center">week 1 - Two Seasons</p>
               </div>
               <div class="view col-md-4">
-                <img src="img/resize/10.jpg" class="cal-img" alt="placeholder">
+                <img src="img/examples/5.jpg" class="cal-img" alt="Lazy River">
                 <div class="mask flex-center waves-effect waves-light">
-                  <p class="white-text w-100 text-center font-weight-bold rgba-black-strong p-1">Week 2</p>
+                  <!-- <p class="white-text w-100 text-center font-weight-bold rgba-black-strong p-1">Week 2</p> -->
                 </div>
+                <p class="m-0 text-center">week 2 - Lazy River</p>
               </div>
               <div class="view col-md-4">
-                <img src="img/resize/9.jpg" class="cal-img" alt="placeholder">
+                <img src="img/examples/6.jpg" class="cal-img" alt="Sunset Over the Waves">
                 <div class="mask flex-center waves-effect waves-light">
-                  <p class="white-text w-100 text-center font-weight-bold rgba-black-strong p-1">Week 3</p>
+                  <!-- <p class="white-text w-100 text-center font-weight-bold rgba-black-strong p-1">Week 3</p> -->
                 </div>
+                <p class="m-0 text-center">week 3 - Sunset Over the Waves</p>
               </div>
             </div>
           </div>
@@ -337,7 +314,7 @@
           <div class="card-header" role="tab" id="headingFour">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
               <h5 class="mb-0 text-dark">
-                February <i class="fas fa-angle-down rotate-icon"></i>
+                March <i class="fas fa-angle-down rotate-icon"></i>
               </h5>
             </a>
           </div>
@@ -346,22 +323,25 @@
           <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordionEx">
             <div class="card-body row no-gutters p-0">
               <div class="view col-md-4">
-                <img src="img/resize/12.jpg" class="cal-img" alt="placeholder">
+                <img src="img/examples/7.jpg" class="cal-img" alt="Mountain Splendour">
                 <div class="mask flex-center waves-effect waves-light">
-                  <p class="white-text w-100 text-center font-weight-bold rgba-black-strong p-1">Week 1</p>
+                  <!-- <p class="white-text w-100 text-center font-weight-bold rgba-black-strong p-1">Week 1</p> -->
                 </div>
+                <p class="m-0 text-center">week 1 - Mountain Splendour</p>
               </div>
               <div class="view col-md-4">
-                <img src="img/resize/13.jpg" class="cal-img" alt="placeholder">
+                <img src="img/examples/8.jpg" class="cal-img" alt="Emerald Waters">
                 <div class="mask flex-center waves-effect waves-light">
-                  <p class="white-text w-100 text-center font-weight-bold rgba-black-strong p-1">Week 2</p>
+                  <!-- <p class="white-text w-100 text-center font-weight-bold rgba-black-strong p-1">Week 2</p> -->
                 </div>
+                <p class="m-0 text-center">week 2 - Emerald Waters</p>
               </div>
               <div class="view col-md-4">
-                <img src="img/resize/14.jpg" class="cal-img" alt="placeholder">
+                <img src="img/examples/9.jpg" class="cal-img" alt="Windy Waves">
                 <div class="mask flex-center waves-effect waves-light">
-                  <p class="white-text w-100 text-center font-weight-bold rgba-black-strong p-1">Week 3</p>
+                  <!-- <p class="white-text w-100 text-center font-weight-bold rgba-black-strong p-1">Week 3</p> -->
                 </div>
+                <p class="m-0 text-center">week 3 - Windy Waves</p>
               </div>
             </div>
           </div>
@@ -383,9 +363,9 @@
           <div class="col-12 col-md-6 text-left white-text ">
 
             <h2 class="h1 font-weight-light custom py-4">Book Your Workshop</h2>
-            <p class="h4 font-weight-light">Call, WhatsApp or email Anna to book your class, or book online below.</p>
+            <p class="h4 font-weight-light my-5 pr-3">Call, WhatsApp or email Anna to book your class, or book online below.</p>
 
-            <span class="fas fa-phone custom fa-2x mr-2 mb-2" style="vertical-align: middle"></span><a class="white-text" href="tel:+61424975336">+61 424 975 336</a>
+            <span class="fas fa-phone custom fa-2x mr-2 mb-4" style="vertical-align: middle"></span><a class="white-text" href="tel:+61424975336">+61 424 975 336</a>
             <br>
             <span class="fas fa-envelope custom fa-2x mr-2 mb-2" style="vertical-align: middle"></span><a class="white-text" href="mailto: bookarthoughts@gmail.com">bookarthoughts@gmail.com</a>
           </div>
@@ -405,9 +385,8 @@
 
   </main>
   <!-- Footer -->
-  <footer class="page-footer font-small elegant-color" style="margin-top: 10em;">
-
-    <!-- Copyright -->
+  <footer class="page-footer font-small elegant-color">
+    </div>
     <div class="footer-copyright text-center py-3">© 2018 Copyright:
       <a href="https://mdbootstrap.com/education/bootstrap/"> arthoughts.com</a>
     </div>
@@ -424,7 +403,6 @@
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
   <!-- custom js -->
   <script>
     // object-fit polyfill run

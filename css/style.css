@@ -1,18 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap');
-
 html {
   scroll-behavior: smooth;
 }
 
-
-.berk {
-  font-family: 'berkshire swash';
-  color: rgb(255, 207, 136)!important;
-  text-shadow: 2px 2px rgba(0,0,0,.514), 2px 2px 2px rgba(0, 0, 0, 0.322);
+.jop {
+  -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+  /* Similar syntax to box-shadow */
 }
 
 .sub-berk {
   text-shadow: 2px 2px rgba(0,0,0,.514), 2px 2px 2px rgba(0, 0, 0, 0.267);
+}
+
+a.nav-link.active {
+  color: rgba(255, 207, 145, 0.521)!important;
 }
 
 .rgba-black-strong {
@@ -44,13 +45,13 @@ html {
 
 .cal-img {
   object-fit: cover;
-  height: 200px;
+  height: 300px;
   width: 100%;
   border: 1px solid white;
 }
 
 .cal-inactive {
-  background-color: rgba(255,255,255,.7)
+  background-color: rgba(255, 255, 255, 0.7)
 }
 
 .cal-inactive > p {
