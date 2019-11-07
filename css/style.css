@@ -32,15 +32,11 @@ a.nav-link.active {
   height: 220px;
   max-width: 800px;
   margin: auto;
-  background: #2e2e2e;
-  border-radius: 10px;
 }
 
 .triplet-img {
   background-size: cover;
   background-position: center;
-  border: 5px solid #2e2e2e;
-  border-radius: 10px;
 }
 
 .cal-img {
