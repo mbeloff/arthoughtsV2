@@ -12,8 +12,9 @@ html {
   text-shadow: 2px 2px rgba(0,0,0,.514), 2px 2px 2px rgba(0, 0, 0, 0.267);
 }
 
-a.nav-link.active {
+a.nav-link.active, .dropdown-item.active {
   color: rgba(255, 207, 145, 0.521)!important;
+  box-shadow: none!important;
 }
 
 .rgba-black-strong {
@@ -108,4 +109,14 @@ a.nav-link.active {
     grid-column: 2/3;
     margin: 0;
     letter-spacing: .05em;
+}
+
+.list-group-item {
+  background: none;
+}
+
+.md-accordion .card .card-header {
+  border-bottom: 0;
+  padding: .2rem;
+  background: 0 0;
 }
