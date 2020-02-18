@@ -120,3 +120,12 @@ a.nav-link.active, .dropdown-item.active {
   padding: .2rem;
   background: 0 0;
 }
+
+.endingsoon {
+  left: -5%;
+  font-weight: bold;
+  width: 110%;
+  background: rgba(223, 85, 85, 0.815);
+  transform: rotate(-3deg);
+  background-clip: content-box
+}
