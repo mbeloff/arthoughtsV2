@@ -12,6 +12,22 @@ html {
   text-shadow: 2px 2px rgba(0,0,0,.514), 2px 2px 2px rgba(0, 0, 0, 0.267);
 }
 
+@media only screen and (max-width: 500px){
+  .sub-berk {
+    font-size: 6vw
+  }
+}
+@media only screen and (min-width: 500px){
+  .sub-berk {
+    font-size: 1.5rem
+  }
+}
+@media only screen and (min-width: 996px){
+  .sub-berk {
+    font-size: 2rem
+  }
+}
+
 a.nav-link.active, .dropdown-item.active {
   color: rgba(255, 207, 145, 0.521)!important;
   box-shadow: none!important;
