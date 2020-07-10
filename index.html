@@ -68,7 +68,7 @@
       </div>
     </nav>
     <div class="view jarallax" style="height: 50vh; min-height: 700px;">
-      <img class="jarallax-img" src="img/header-new.jpg" alt="Bob Ross painting of distant mountains with a lake and cabin in the foreground">
+      <img id="bg-img" class="jarallax-img" src="" alt="Bob Ross Lessons landscape painting">
       <div class="mask rgba-black-strong"></div>
       <!-- <div class="mask rgba-stylish-strong"></div> -->
       <div class="flex-center text-left">
@@ -250,7 +250,6 @@
 
 
     <div class="container" id="calendar">
-      <div class="row mb-5 pb-4"></div>
       <h2 class="h1 font-weight-light custom py-4 mt-5 w-100 text-center">Upcoming Workshops</h2>
       
       <div class="accordion md-accordion col-12 col-md-10 mx-auto" id="accordionEx" role="tablist" aria-multiselectable="true">
@@ -413,6 +412,7 @@
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- custom js -->
   <script>
+    $('#bg-img').attr('src', 'img/headers/' + (Math.floor(Math.random() * 12) + 1) + '.jpg');
     // object-fit polyfill run
     objectFitImages();
 
