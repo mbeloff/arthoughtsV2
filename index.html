@@ -412,7 +412,8 @@
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- custom js -->
   <script>
-    $('#bg-img').attr('src', 'img/headers/' + (Math.floor(Math.random() * 12) + 1) + '.jpg');
+    $('#bg-img').fadeOut(100).attr('src', 'img/headers/' + (Math.floor(Math.random() * 12) + 1) + '.jpg');
+    $('#bg-img').fadeIn(1400);
     // object-fit polyfill run
     objectFitImages();
 
