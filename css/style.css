@@ -2,6 +2,11 @@ html {
   scroll-behavior: smooth;
 }
 
+p {
+  font-size: 1.05rem;
+  line-height: 2em;
+}
+
 .jop {
   -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
   filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
