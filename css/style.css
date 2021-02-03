@@ -50,7 +50,35 @@ a.nav-link.active, .dropdown-item.active {
   background-image: linear-gradient(40deg,#ff9c6e,#ffac2f)!important;
 }
 
-.triplet {
+.tilt-parent {
+  filter: drop-shadow(0px 5px rgba(219, 80, 24, 0.658));
+}
+
+.tilt-card {
+  background-color: rgb(255, 202, 172);
+  color: rgb(87, 13, 38);
+  max-width: 99%
+}
+
+.card-container .tilt-parent:nth-of-type(1) .tilt-card {
+  /* margin-top: -.5rem; */
+  transform: rotate(-1deg); 
+  clip-path: polygon(1.5% 1.5%, 99.5% 0, 100% 100%, 0 99.5%);
+}
+
+.card-container .tilt-parent:nth-of-type(2) .tilt-card {
+  /* margin-top: 0rem; */
+  transform: rotate(1deg);
+  clip-path: polygon(0 0, 99% 1.5%, 99% 99%, 1.75% 99.5%);
+}
+
+.card-container .tilt-parent:nth-of-type(3) .tilt-card {
+  /* margin-top: .5rem; */
+  transform: rotate(-.5deg);
+  clip-path: polygon(0 2%, 99% 2%, 100% 98%, 2% 99%);
+}
+
+/* .triplet {
   height: 220px;
   max-width: 800px;
   margin: auto;
@@ -66,15 +94,15 @@ a.nav-link.active, .dropdown-item.active {
   height: 300px;
   width: 100%;
   border: 1px solid white;
-}
+} */
 
-.cal-inactive {
+/* .cal-inactive {
   background-color: rgba(255, 255, 255, 0.7)
 }
 
 .cal-inactive > p {
   color: rgb(116, 116, 116) !important;
-}
+} */
 
 /* -------------------------gallery */
 .display {
