@@ -33,6 +33,10 @@ p {
   }
 }
 
+blockquote p  {
+  font-size: 1.5rem !important;
+}
+
 a.nav-link.active, .dropdown-item.active {
   color: rgba(255, 207, 145, 0.521)!important;
   box-shadow: none!important;
@@ -43,7 +47,7 @@ a.nav-link.active, .dropdown-item.active {
 }
 
 .nav-link, .navbar-brand, .dropdown-item, .custom {
-  color: rgb(247, 156, 82) !important;
+  color: rgb(255, 178, 77) !important;
 }
 
 .custom-gradient {
