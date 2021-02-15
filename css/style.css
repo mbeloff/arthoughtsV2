@@ -64,6 +64,16 @@ a.nav-link.active, .dropdown-item.active {
   max-width: 99%
 }
 
+.card-container .tilt-parent:nth-of-type(1) .card-inner {
+  transform: rotate(1deg); 
+}
+.card-container .tilt-parent:nth-of-type(2) .card-inner {
+  transform: rotate(-1deg); 
+}
+.card-container .tilt-parent:nth-of-type(3) .card-inner {
+  transform: rotate(.5deg); 
+}
+
 .card-container .tilt-parent:nth-of-type(1) .tilt-card {
   /* margin-top: -.5rem; */
   transform: rotate(-1deg); 
